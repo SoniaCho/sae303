@@ -1,0 +1,71 @@
+#mapid {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zoom {
+  text-align: center;
+  margin-top: -200px;
+  margin-left: 40%;
+}
+
+.column {
+  display: inline-block; 
+  width: 33%;  
+  box-sizing: border-box; 
+  vertical-align: top; 
+  text-align: center;
+
+}
+
+
+@font-face {
+  font-family: 'font.ttf';
+  src: url('font.ttf') format('truetype');
+}
+
+p{
+margin: 25px;
+text-align: center;
+}
+img{
+  border-radius: 20px;
+    height: 275px;
+    width: 275px;
+}
+
+#zoom-slider{
+ position: absolute;
+ left: 45%;
+}
+body {
+  background-image: url("bg_dote.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'font.ttf', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: 'font.ttf', sans-serif;
+  text-shadow: 2px 2px 5px lightseagreen;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  
+
+
+}
+h2 {
+  text-align: center;
+  margin: auto;
+}
+
+
+

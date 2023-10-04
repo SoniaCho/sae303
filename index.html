@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder@1.13.0/dist/Control.Geocoder.css" />
+    <script src="https://unpkg.com/leaflet-control-geocoder@1.13.0/dist/Control.Geocoder.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css" />
+    <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+    <script src="app.js"></script>
+</head>
+<header>
+    <h1>News for kids</h1>
+</header>
+
+<body>
+
+    <div id="mapid"></div>
+    <h2>Zoom</h2>
+    <input type="range" id="zoom-slider" min="8" max="30" value="10">
+    <br>
+    <h2>Introduction</h2>
+    <p> First, we can ask ourselfs, what exactly is this plan "Le plan vélo" is a government initiative which started
+        in september of 2019 and aimed at promoting and improving cycling infrastructure and practices France. It
+        includes measures such as building bike lanes, providing bike-sharing programs, and creating policies to make
+        cities more bike-friendly. The goal is to reduce traffic congestion, improve air quality, and encourage people
+        to choose bicycles as a sustainable and healthy mode of transportation. </p>
+    <div class="column">
+        <h2>Instauration of the plan</h2>
+        <p>If we compare the number of accidents in 2009 and 2019, there is an impressive difference. Out 75 accidents,
+            about 76% where in 2009 while that number drops down to 24% for 2019. But could this be a direct correlation
+            between the begining of the security measures or could it just be a cohencidence? To answer that, let's take
+            a deeper dive into the numbers. </p>
+        <img src="affiche1.png" alt="accidentsglobal">
+    </div>
+    <div class="column">
+        <h2>Impact on Accident Type</h2>
+        <p>The data shows that the 'Plan Vélo' has a impact on specific types of accidents. For instance, in 2009, about
+            15% of bicycle-vehicle collisions occurred in areas with dedicated cycling infrastructure, while 85%
+            occurred in regions without such provisions showing the lack of.
+        </p>
+        <img src="affiche2.png" alt="accidentsbyage">
+    </div>
+
+
+
+    <div class="column">
+        <h2>Gravity of the incident</h2>
+        <p>Most of the time, minors tend to be in accident that are not as tragic as adults. Some reasons could be that there more carefull on the road since they know they could be not as easily noticed by other users such as cars, or trucks. Overall, they only make up for 34,48% of the total number of accidents on the road.
+        </p>
+        <img src="affiche3.png" alt="accidentsbyprotect">
+    </div>
+    <h2>Conclusion</h2>
+    <p>The 'Plan Vélo' in Indre-et-Loire is undeniably a step forward in enhancing bicycle safety. Local statistics and
+        case studies illustrate a positive correlation between the initiative and reduced bicycle accidents. However, it
+        is essential to consider regional disparities and the need for a comprehensive approach that encompasses
+        infrastructure development, education, and user behavior.
+
+        As France continues to invest in cycling infrastructure through the 'Plan Vélo,' ongoing research and
+        data analysis will further refine strategies to ensure safer cycling on the department's roads. But of course
+        let's not forget about user conciencness and let's stay safe on the road!</p>
+</body>
+
+</html>
